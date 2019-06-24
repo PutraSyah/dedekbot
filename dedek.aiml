@@ -1,0 +1,39 @@
+<aiml>
+<category>
+<pattern>Assalamualaikum</pattern>
+<template>
+<random>
+<li>Assalamualaikum. Lon dedek bot. Salam turi </li>
+<li>Assalamualaikum. Selamat datang di dedek chatbot </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>APA KABAR *</pattern>
+<template>saya baik-baik saja,makasih sudah bertanya  </template>
+</category>
+
+<category>
+<pattern>SIAPA KAMU *</pattern>
+<template>
+<random>
+<li>yang jelas aku cantik </li>
+<li>saya adalah regina</li>
+<li>saya adalah regina yang cantik </li>
+<li>saya adalah regina.kalau kamu ? </li>
+</random>
+</template></category>
+
+<category>
+<pattern>SAYA *</pattern>
+<template>Helloww, <star></star>
+</template>
+</category>
+
+<category>
+<pattern>Nama saya *</pattern>
+<template><srai>I AM</srai></template>
+</category>
+
+</aiml>

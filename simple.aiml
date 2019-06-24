@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+	<category>
+		<pattern>ASSALAMUALAIKUM</pattern>
+		<template>
+			Waalaikumsalam 
+		</template>
+	</category>
+
+	<category>
+		<pattern>ASSALAMUALAIKUM _</pattern>
+		<template>
+			<srai>ASSALAMUALAIKUM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HABA</pattern>
+		<template>
+			<random>
+				<li>Haba geut. Droeneuh kiban?</li>
+				<li>Haba geut</li>
+				<li>Uroe nyoe geut. Singeuh hana tu'oh kiban</li>
+				<li>Sehat. Digata kiban</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ HABA</pattern>
+		<template>
+			<srai>HABA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HABA _</pattern>
+		<template>
+			<srai>HABA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ HABA _</pattern>
+		<template>
+			<srai>HABA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GEUT</pattern>
+		<template>
+			Bahagia lon deungo ^_^
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GEUT</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GEUT _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GEUT _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GET</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GET</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GET _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GET _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SEHAT</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ SEHAT</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ SEHAT _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SEHAT _</pattern>
+		<template>
+			<srai>GEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NAN LON *</pattern>
+		<template>
+		<random>
+			<li>Oh, <set name = "username"><star/>, peu haba ?</set></li>
+			<li>Oh, halo <set name = "username"><star/>. Kiban haba uro nyo ?</set></li>
+			<li>Oh, hai <set name = "username"><star/>, nan lon dedek bot. Saleum meuturi</set></li>
+			<li>Hai <set name = "username"><star/>, pu haba lawet nyo ?</set></li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ NAN LON *</pattern>
+		<template>
+			<srai>NAN LON *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NAN LON * _</pattern>
+		<template>
+			<srai>NAN LON *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ NAN LON * _</pattern>
+		<template>
+			<srai>NAN LON *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TINGGAI</pattern>
+		<template>
+		<random>
+			<li>Lon tinggai bak internet</li>
+			<li>Lon tinggai di internet tapi bak telegram</li>
+			<li>Lon tinggai bak komputer server</li>
+			<li>Lon tinggai bak rumoh komputer server, tapi rumoh lon terhubung ngen telegram</li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ TINGGAI</pattern>
+		<template>
+			<srai>TINGGAI</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ TINGGAI _</pattern>
+		<template>
+			<srai>TINGGAI</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TINGGAI _</pattern>
+		<template>
+			<srai>TINGGAI</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ANEH</pattern>
+		<template>
+		<random>
+			<li>Ya aneh syit</li>
+			<li>Memang aneh</li>
+			<li>Aneh syit</li>
+			<li>Lage nyan syit</li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ ANEH</pattern>
+		<template>
+			<srai>ANEH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ ANEH _</pattern>
+		<template>
+			<srai>ANEH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ANEH _</pattern>
+		<template>
+			<srai>ANEH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GURA</pattern>
+		<template>
+		<random>
+			<li>Ya gura syit</li>
+			<li>Memang gura</li>
+			<li>Gura syit</li>
+			<li>Lage nyan syit</li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GURA</pattern>
+		<template>
+			<srai>GURA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ GURA _</pattern>
+		<template>
+			<srai>GURA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GURA _</pattern>
+		<template>
+			<srai>GURA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RUMOH</pattern>
+		<template>
+		<random>
+			<li>Rumoh lon bak internet</li>
+			<li>Rumoh lon di internet, gampong telegram</li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ RUMOH</pattern>
+		<template>
+			<srai>RUMOH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ RUMOH _</pattern>
+		<template>
+			<srai>RUMOH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RUMOH _</pattern>
+		<template>
+			<srai>RUMOH</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEUGEUT</pattern>
+		<template>
+		<random>
+			<li>Yang peugeut lon youtuber Putra Gamer, subscribe channel youtube gobnyan beuh</li>
+			<li>Lon dipeugeut le mahasiswa TRKJ 4.A</li>
+			<li>Yang peugeut lon ureueng yang tinggai di Geudong, gampong Blang Peuria</li> 
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEUGEUT</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEUGEUT _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEUGEUT _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEGET</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEGET</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEGET _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEGET _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEUGET</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEUGET</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PEUGET _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEUGET _</pattern>
+		<template>
+			<srai>PEUGEUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<template>
+		<random>
+			<li>Meuah beurayek, lon hana meuphom tentang nyan. Ci digata tanyeng bak @PutraSyah035</li>
+			<li>Meuah that, lon hana ilmee untuk jaweub droeneuh. Ci neu tanyeng bak @PutraSyah035</li>
+			<li>Mohon meuah, lon hana geupeuruno ata nyan lom. Aci neu tanyeng bak hamba Allah @PutraSyah035</li> 
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CHATBOT</pattern>
+		<template>
+		<random>
+			<li>Chatbot (dikheun sit chatterbot atau bots) nyan keuh program komputer yang dipeuget untuk ta peugah haba ngen siro atau leubeh manusia pu nyan secara jimeusu atau lewat tulesan.</li>
+			<li>Chatbot nyan aplikasi untuk droeneuh neupeugah haba ngon komputer, lage lon</li>
+			<li>Chatbot nyan keuh komputer nyang peugah haba ngon gata. Contoh chatbot jih nyan keuh lon nyang teungeh peugah haba ngon gata</li> 
+		</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CHATBOT _</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ CHATBOT _</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ CHATBOT</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CHAT BOT</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ CHAT BOT _</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ CHATBOT</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CHAT BOT _</pattern>
+		<template>
+			<srai>CHATBOT</srai>
+		</template>
+	</category>
+	
+	 
+	
+</aiml>

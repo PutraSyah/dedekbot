@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--Substitutions are grouped according to several AIML interpreter functions.-->
+<substitutions>  
+	<input>   
+	<substitute find=" habe "replace= " haba "></substitute>     
+	</input> 
+</substituton>

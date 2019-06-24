@@ -1,0 +1,14 @@
+<aiml version="1.0.1" encoding="UTF-8">
+ <!-- std-startup.aiml -->
+ 
+ <category>
+		<pattern>LOAD AIML B</pattern>
+		<template>
+		<learn>standard/simple.aiml</learn>
+		<learn>standard/normal.xml</learn>
+		<learn>standard/film.aiml</learn>
+		<learn>standard/sara.aiml</learn>
+		</template>
+</category>
+
+</aiml>
